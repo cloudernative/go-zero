@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/cloudernative/go-zero/core/conf"
+	"github.com/cloudernative/go-zero/internal/devserver"
 	red "github.com/go-redis/redis/v8"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/testutil"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/conf"
-	"github.com/zeromicro/go-zero/internal/devserver"
 )
 
 func TestRedisMetric(t *testing.T) {

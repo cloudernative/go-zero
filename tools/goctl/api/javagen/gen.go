@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/cloudernative/go-zero/core/logx"
+	"github.com/cloudernative/go-zero/tools/goctl/api/parser"
+	"github.com/cloudernative/go-zero/tools/goctl/util/pathx"
 	"github.com/gookit/color"
 	"github.com/spf13/cobra"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/tools/goctl/api/parser"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 )
 
 var (

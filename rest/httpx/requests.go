@@ -6,11 +6,11 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/zeromicro/go-zero/core/mapping"
-	"github.com/zeromicro/go-zero/core/validation"
-	"github.com/zeromicro/go-zero/rest/internal/encoding"
-	"github.com/zeromicro/go-zero/rest/internal/header"
-	"github.com/zeromicro/go-zero/rest/pathvar"
+	"github.com/cloudernative/go-zero/core/mapping"
+	"github.com/cloudernative/go-zero/core/validation"
+	"github.com/cloudernative/go-zero/rest/internal/encoding"
+	"github.com/cloudernative/go-zero/rest/internal/header"
+	"github.com/cloudernative/go-zero/rest/pathvar"
 )
 
 const (

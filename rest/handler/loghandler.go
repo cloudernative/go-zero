@@ -12,15 +12,15 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/color"
-	"github.com/zeromicro/go-zero/core/iox"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/syncx"
-	"github.com/zeromicro/go-zero/core/timex"
-	"github.com/zeromicro/go-zero/core/utils"
-	"github.com/zeromicro/go-zero/rest/httpx"
-	"github.com/zeromicro/go-zero/rest/internal"
-	"github.com/zeromicro/go-zero/rest/internal/response"
+	"github.com/cloudernative/go-zero/core/color"
+	"github.com/cloudernative/go-zero/core/iox"
+	"github.com/cloudernative/go-zero/core/logx"
+	"github.com/cloudernative/go-zero/core/syncx"
+	"github.com/cloudernative/go-zero/core/timex"
+	"github.com/cloudernative/go-zero/core/utils"
+	"github.com/cloudernative/go-zero/rest/httpx"
+	"github.com/cloudernative/go-zero/rest/internal"
+	"github.com/cloudernative/go-zero/rest/internal/response"
 )
 
 const (

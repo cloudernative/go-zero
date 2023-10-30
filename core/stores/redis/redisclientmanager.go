@@ -5,8 +5,8 @@ import (
 	"io"
 	"runtime"
 
+	"github.com/cloudernative/go-zero/core/syncx"
 	red "github.com/go-redis/redis/v8"
-	"github.com/zeromicro/go-zero/core/syncx"
 )
 
 const (

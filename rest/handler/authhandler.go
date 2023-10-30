@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"net/http/httputil"
 
+	"github.com/cloudernative/go-zero/core/logx"
+	"github.com/cloudernative/go-zero/rest/internal/response"
+	"github.com/cloudernative/go-zero/rest/token"
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/rest/internal/response"
-	"github.com/zeromicro/go-zero/rest/token"
 )
 
 const (

@@ -6,9 +6,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/zeromicro/go-zero/core/search"
-	"github.com/zeromicro/go-zero/rest/httpx"
-	"github.com/zeromicro/go-zero/rest/pathvar"
+	"github.com/cloudernative/go-zero/core/search"
+	"github.com/cloudernative/go-zero/rest/httpx"
+	"github.com/cloudernative/go-zero/rest/pathvar"
 )
 
 const (

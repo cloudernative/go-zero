@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/cloudernative/go-zero/core/logx"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/logx"
 )
 
 func TestMetricsInterceptor(t *testing.T) {

@@ -6,11 +6,11 @@ import (
 	"os"
 	"path"
 
-	"github.com/zeromicro/go-zero/core/conf"
-	"github.com/zeromicro/go-zero/core/hash"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/tools/goctl/update/config"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
+	"github.com/cloudernative/go-zero/core/conf"
+	"github.com/cloudernative/go-zero/core/hash"
+	"github.com/cloudernative/go-zero/core/logx"
+	"github.com/cloudernative/go-zero/tools/goctl/update/config"
+	"github.com/cloudernative/go-zero/tools/goctl/util/pathx"
 )
 
 const (

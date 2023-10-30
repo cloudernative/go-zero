@@ -4,11 +4,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/zeromicro/go-zero/core/collection"
-	"github.com/zeromicro/go-zero/tools/goctl/model/sql/template"
-	"github.com/zeromicro/go-zero/tools/goctl/util"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
-	"github.com/zeromicro/go-zero/tools/goctl/util/stringx"
+	"github.com/cloudernative/go-zero/core/collection"
+	"github.com/cloudernative/go-zero/tools/goctl/model/sql/template"
+	"github.com/cloudernative/go-zero/tools/goctl/util"
+	"github.com/cloudernative/go-zero/tools/goctl/util/pathx"
+	"github.com/cloudernative/go-zero/tools/goctl/util/stringx"
 )
 
 func genDelete(table Table, withCache, postgreSql bool) (string, string, error) {

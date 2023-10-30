@@ -1,13 +1,13 @@
 package service
 
 import (
-	"github.com/zeromicro/go-zero/core/load"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/proc"
-	"github.com/zeromicro/go-zero/core/prometheus"
-	"github.com/zeromicro/go-zero/core/stat"
-	"github.com/zeromicro/go-zero/core/trace"
-	"github.com/zeromicro/go-zero/internal/devserver"
+	"github.com/cloudernative/go-zero/core/load"
+	"github.com/cloudernative/go-zero/core/logx"
+	"github.com/cloudernative/go-zero/core/proc"
+	"github.com/cloudernative/go-zero/core/prometheus"
+	"github.com/cloudernative/go-zero/core/stat"
+	"github.com/cloudernative/go-zero/core/trace"
+	"github.com/cloudernative/go-zero/internal/devserver"
 )
 
 const (

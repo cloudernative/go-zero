@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/stores/redis"
+	"github.com/cloudernative/go-zero/core/stores/redis"
 )
 
 const (

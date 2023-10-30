@@ -12,13 +12,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/cloudernative/go-zero/core/conf"
+	"github.com/cloudernative/go-zero/core/logx/logtest"
+	"github.com/cloudernative/go-zero/rest/chain"
+	"github.com/cloudernative/go-zero/rest/httpx"
+	"github.com/cloudernative/go-zero/rest/internal/cors"
+	"github.com/cloudernative/go-zero/rest/router"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/conf"
-	"github.com/zeromicro/go-zero/core/logx/logtest"
-	"github.com/zeromicro/go-zero/rest/chain"
-	"github.com/zeromicro/go-zero/rest/httpx"
-	"github.com/zeromicro/go-zero/rest/internal/cors"
-	"github.com/zeromicro/go-zero/rest/router"
 )
 
 func TestNewServer(t *testing.T) {

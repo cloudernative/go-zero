@@ -12,8 +12,8 @@ import (
 	"sync"
 	"sync/atomic"
 
+	"github.com/cloudernative/go-zero/core/color"
 	fatihcolor "github.com/fatih/color"
-	"github.com/zeromicro/go-zero/core/color"
 )
 
 type (

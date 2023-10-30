@@ -10,8 +10,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/zeromicro/go-zero/core/lang"
-	"github.com/zeromicro/go-zero/core/stringx"
+	"github.com/cloudernative/go-zero/core/lang"
+	"github.com/cloudernative/go-zero/core/stringx"
 )
 
 const (

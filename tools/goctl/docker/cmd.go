@@ -1,6 +1,6 @@
 package docker
 
-import "github.com/zeromicro/go-zero/tools/goctl/internal/cobrax"
+import "github.com/cloudernative/go-zero/tools/goctl/internal/cobrax"
 
 var (
 	varExeName       string

@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/codec"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/rest/httpx"
-	"github.com/zeromicro/go-zero/rest/internal/security"
+	"github.com/cloudernative/go-zero/core/codec"
+	"github.com/cloudernative/go-zero/core/logx"
+	"github.com/cloudernative/go-zero/rest/httpx"
+	"github.com/cloudernative/go-zero/rest/internal/security"
 )
 
 const contentSecurity = "X-Content-Security"

@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/jsonx"
-	"github.com/zeromicro/go-zero/core/lang"
-	"github.com/zeromicro/go-zero/core/proc"
-	"github.com/zeromicro/go-zero/core/stringx"
+	"github.com/cloudernative/go-zero/core/jsonx"
+	"github.com/cloudernative/go-zero/core/lang"
+	"github.com/cloudernative/go-zero/core/proc"
+	"github.com/cloudernative/go-zero/core/stringx"
 )
 
 const (

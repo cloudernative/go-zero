@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"sync"
 
+	"github.com/cloudernative/go-zero/core/metric"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/zeromicro/go-zero/core/metric"
 )
 
 const namespace = "mysql_client"

@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/rest/httpx"
+	"github.com/cloudernative/go-zero/core/logx"
+	"github.com/cloudernative/go-zero/rest/httpx"
 )
 
 // logContextKey is a context key.

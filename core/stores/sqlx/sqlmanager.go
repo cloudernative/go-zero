@@ -5,7 +5,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/syncx"
+	"github.com/cloudernative/go-zero/core/syncx"
 )
 
 const (

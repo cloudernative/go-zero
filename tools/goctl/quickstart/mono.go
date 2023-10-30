@@ -5,11 +5,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/tools/goctl/api/gogen"
-	"github.com/zeromicro/go-zero/tools/goctl/pkg/golang"
-	"github.com/zeromicro/go-zero/tools/goctl/util"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
+	"github.com/cloudernative/go-zero/core/logx"
+	"github.com/cloudernative/go-zero/tools/goctl/api/gogen"
+	"github.com/cloudernative/go-zero/tools/goctl/pkg/golang"
+	"github.com/cloudernative/go-zero/tools/goctl/util"
+	"github.com/cloudernative/go-zero/tools/goctl/util/pathx"
 )
 
 var (

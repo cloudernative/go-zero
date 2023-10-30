@@ -1,4 +1,4 @@
-module github.com/zeromicro/go-zero
+module github.com/cloudernative/go-zero
 
 go 1.19
 

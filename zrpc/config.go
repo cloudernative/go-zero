@@ -3,11 +3,11 @@ package zrpc
 import (
 	"time"
 
-	"github.com/zeromicro/go-zero/core/discov"
-	"github.com/zeromicro/go-zero/core/service"
-	"github.com/zeromicro/go-zero/core/stores/redis"
-	"github.com/zeromicro/go-zero/zrpc/internal"
-	"github.com/zeromicro/go-zero/zrpc/resolver"
+	"github.com/cloudernative/go-zero/core/discov"
+	"github.com/cloudernative/go-zero/core/service"
+	"github.com/cloudernative/go-zero/core/stores/redis"
+	"github.com/cloudernative/go-zero/zrpc/internal"
+	"github.com/cloudernative/go-zero/zrpc/resolver"
 )
 
 type (

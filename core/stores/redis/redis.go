@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/cloudernative/go-zero/core/breaker"
+	"github.com/cloudernative/go-zero/core/errorx"
+	"github.com/cloudernative/go-zero/core/logx"
+	"github.com/cloudernative/go-zero/core/mapping"
+	"github.com/cloudernative/go-zero/core/syncx"
 	red "github.com/go-redis/redis/v8"
-	"github.com/zeromicro/go-zero/core/breaker"
-	"github.com/zeromicro/go-zero/core/errorx"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/mapping"
-	"github.com/zeromicro/go-zero/core/syncx"
 )
 
 const (

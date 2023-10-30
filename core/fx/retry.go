@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/errorx"
+	"github.com/cloudernative/go-zero/core/errorx"
 )
 
 const defaultRetryTimes = 3

@@ -7,10 +7,10 @@ import (
 	"log"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/errorx"
-	"github.com/zeromicro/go-zero/core/hash"
-	"github.com/zeromicro/go-zero/core/stores/redis"
-	"github.com/zeromicro/go-zero/core/syncx"
+	"github.com/cloudernative/go-zero/core/errorx"
+	"github.com/cloudernative/go-zero/core/hash"
+	"github.com/cloudernative/go-zero/core/stores/redis"
+	"github.com/cloudernative/go-zero/core/syncx"
 )
 
 type (

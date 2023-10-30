@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/cloudernative/go-zero/core/breaker"
+	"github.com/cloudernative/go-zero/core/logx/logtest"
+	ztrace "github.com/cloudernative/go-zero/core/trace"
 	red "github.com/go-redis/redis/v8"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/breaker"
-	"github.com/zeromicro/go-zero/core/logx/logtest"
-	ztrace "github.com/zeromicro/go-zero/core/trace"
 	tracesdk "go.opentelemetry.io/otel/trace"
 )
 

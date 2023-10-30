@@ -5,11 +5,11 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/cloudernative/go-zero/core/breaker"
+	"github.com/cloudernative/go-zero/core/logx"
+	"github.com/cloudernative/go-zero/core/stat"
 	"github.com/go-sql-driver/mysql"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/breaker"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/stat"
 )
 
 func init() {

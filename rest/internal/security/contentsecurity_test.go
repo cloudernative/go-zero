@@ -15,10 +15,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/cloudernative/go-zero/core/codec"
+	"github.com/cloudernative/go-zero/core/fs"
+	"github.com/cloudernative/go-zero/rest/httpx"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/codec"
-	"github.com/zeromicro/go-zero/core/fs"
-	"github.com/zeromicro/go-zero/rest/httpx"
 )
 
 const (

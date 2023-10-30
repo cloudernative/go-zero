@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"path/filepath"
 
-	conf "github.com/zeromicro/go-zero/tools/goctl/config"
-	"github.com/zeromicro/go-zero/tools/goctl/rpc/parser"
-	"github.com/zeromicro/go-zero/tools/goctl/util"
-	"github.com/zeromicro/go-zero/tools/goctl/util/format"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
+	conf "github.com/cloudernative/go-zero/tools/goctl/config"
+	"github.com/cloudernative/go-zero/tools/goctl/rpc/parser"
+	"github.com/cloudernative/go-zero/tools/goctl/util"
+	"github.com/cloudernative/go-zero/tools/goctl/util/format"
+	"github.com/cloudernative/go-zero/tools/goctl/util/pathx"
 )
 
 //go:embed svc.tpl
